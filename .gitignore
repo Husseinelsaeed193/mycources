@@ -1,0 +1,12 @@
+# تجاهل ملفات الأخطاء والسجلات
+*.log
+wp-content/debug.log
+wp-content/uploads/wc-logs/
+
+# تجاهل ملفات الإعدادات المحلية (للأمان)
+.htaccess
+wp-config.php
+
+# تجاهل ملفات النظام
+.DS_Store
+Thumbs.db
